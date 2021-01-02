@@ -5,7 +5,7 @@ from tkinter import *
 from tkinter import messagebox
 
 
-version = "0.1"
+version = "0.2"
 
 
 def checkforupdates():
@@ -16,7 +16,7 @@ def checkforupdates():
                                    f"Your version is old.\nYour version: {version}\nLatest version: {gitversion}\nGet "
                                    f"latest version in the link "
                                    f"below\nhttps://github.com/iFireKing/Youtube-Downloader/releases/tag "
-                                   f"/0.1")
+                                   f"/{version}")
 
         exit(0)
     except:
